@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\class\\bes200\\bes200jeff\\RabbitMqUtils\\RabbitMqUtils.csproj": {}
+    "C:\\dev\\bes200-rabbitmqutils\\RabbitMqUtils.csproj": {}
   },
   "projects": {
-    "C:\\dev\\class\\bes200\\bes200jeff\\RabbitMqUtils\\RabbitMqUtils.csproj": {
+    "C:\\dev\\bes200-rabbitmqutils\\RabbitMqUtils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\class\\bes200\\bes200jeff\\RabbitMqUtils\\RabbitMqUtils.csproj",
+        "projectUniqueName": "C:\\dev\\bes200-rabbitmqutils\\RabbitMqUtils.csproj",
         "projectName": "RabbitMqUtils",
-        "projectPath": "C:\\dev\\class\\bes200\\bes200jeff\\RabbitMqUtils\\RabbitMqUtils.csproj",
+        "projectPath": "C:\\dev\\bes200-rabbitmqutils\\RabbitMqUtils.csproj",
         "packagesPath": "C:\\Users\\jeff\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\class\\bes200\\bes200jeff\\RabbitMqUtils\\obj\\",
+        "outputPath": "C:\\dev\\bes200-rabbitmqutils\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -43,27 +43,27 @@
           "dependencies": {
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
-              "version": "[3.1.1, )"
+              "version": "[3.1.3, )"
             },
             "Microsoft.Extensions.Configuration.Binder": {
               "target": "Package",
-              "version": "[3.1.1, )"
+              "version": "[3.1.3, )"
             },
             "Microsoft.Extensions.Hosting.Abstractions": {
               "target": "Package",
-              "version": "[3.1.1, )"
+              "version": "[3.1.3, )"
             },
             "Microsoft.Extensions.ObjectPool": {
               "target": "Package",
-              "version": "[3.1.1, )"
+              "version": "[3.1.3, )"
             },
             "Microsoft.Extensions.Options": {
               "target": "Package",
-              "version": "[3.1.1, )"
+              "version": "[3.1.3, )"
             },
             "Microsoft.Extensions.Options.ConfigurationExtensions": {
               "target": "Package",
-              "version": "[3.1.1, )"
+              "version": "[3.1.3, )"
             },
             "RabbitMQ.Client": {
               "target": "Package",
@@ -89,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
