@@ -74,7 +74,7 @@ namespace RabbitMqUtils
             var consumer = new EventingBasicConsumer(Channel);
             consumer.Received += (model, ea) =>
             {
-                var body = ea.Body;
+                var body = ea.Body.Span;
                 var message = Encoding.UTF8.GetString(body);
                 var result =  Process(message).Result;
                 if (result)
