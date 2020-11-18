@@ -2,6 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>RabbitMqUtils</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/JeffryGonzalez/bes200-rabbitmqutils</RepositoryUrl>
+    <Authors>Jeffry Gonzalez</Authors>
+    <Company>Hypertheory</Company>
+    <Description>Some utilities for publishing and subscribing to RabbitMQ</Description>
   </PropertyGroup>
 
   <ItemGroup>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>RabbitMqUtils</id>
+    <version>1.0.0</version>
+    <authors>Jeffry Gonzalez</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Some utilities for publishing and subscribing to RabbitMQ</description>
+    <repository url="https://github.com/JeffryGonzalez/bes200-rabbitmqutils" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Microsoft.Extensions.Configuration.Abstractions" version="3.1.10" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Binder" version="3.1.10" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Hosting.Abstractions" version="3.1.10" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.ObjectPool" version="3.1.10" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Options" version="3.1.10" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Options.ConfigurationExtensions" version="3.1.10" exclude="Build,Analyzers" />
+        <dependency id="RabbitMQ.Client" version="6.2.1" exclude="Build,Analyzers" />
+        <dependency id="System.Configuration.ConfigurationManager" version="4.7.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Instructor\bes200-rabbitmqutils\bin\Debug\netcoreapp3.1\RabbitMqUtils.dll" target="lib\netcoreapp3.1\RabbitMqUtils.dll" />
+  </files>
+</package>
