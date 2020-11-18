@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\bes200-rabbitmqutils\\RabbitMqUtils.csproj": {}
+    "C:\\Instructor\\bes200-rabbitmqutils\\RabbitMqUtils.csproj": {}
   },
   "projects": {
-    "C:\\dev\\bes200-rabbitmqutils\\RabbitMqUtils.csproj": {
+    "C:\\Instructor\\bes200-rabbitmqutils\\RabbitMqUtils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\bes200-rabbitmqutils\\RabbitMqUtils.csproj",
+        "projectUniqueName": "C:\\Instructor\\bes200-rabbitmqutils\\RabbitMqUtils.csproj",
         "projectName": "RabbitMqUtils",
-        "projectPath": "C:\\dev\\bes200-rabbitmqutils\\RabbitMqUtils.csproj",
-        "packagesPath": "C:\\Users\\enith\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\bes200-rabbitmqutils\\obj\\",
+        "projectPath": "C:\\Instructor\\bes200-rabbitmqutils\\RabbitMqUtils.csproj",
+        "packagesPath": "C:\\Users\\ITUStudent\\.nuget\\packages\\",
+        "outputPath": "C:\\Instructor\\bes200-rabbitmqutils\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\enith\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ITUStudent\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,34 +38,35 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
-              "version": "[3.1.6, )"
+              "version": "[3.1.10, )"
             },
             "Microsoft.Extensions.Configuration.Binder": {
               "target": "Package",
-              "version": "[3.1.6, )"
+              "version": "[3.1.10, )"
             },
             "Microsoft.Extensions.Hosting.Abstractions": {
               "target": "Package",
-              "version": "[3.1.6, )"
+              "version": "[3.1.10, )"
             },
             "Microsoft.Extensions.ObjectPool": {
               "target": "Package",
-              "version": "[3.1.6, )"
+              "version": "[3.1.10, )"
             },
             "Microsoft.Extensions.Options": {
               "target": "Package",
-              "version": "[3.1.6, )"
+              "version": "[3.1.10, )"
             },
             "Microsoft.Extensions.Options.ConfigurationExtensions": {
               "target": "Package",
-              "version": "[3.1.6, )"
+              "version": "[3.1.10, )"
             },
             "RabbitMQ.Client": {
               "target": "Package",
-              "version": "[6.1.0, )"
+              "version": "[6.2.1, )"
             },
             "System.Configuration.ConfigurationManager": {
               "target": "Package",
@@ -86,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

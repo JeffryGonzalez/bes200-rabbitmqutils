@@ -91,7 +91,7 @@ namespace RabbitMqUtils
         }
 
 
-        public Task StopAsync(CancellationToken cancellationToken)
+        public override Task StopAsync(CancellationToken cancellationToken)
         {
             this.Connection.Close();
             return Task.CompletedTask;
